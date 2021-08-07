@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<title>Touch Some Grass</title>
+<link rel="icon" href="/img/7.png">
+<meta name="description" content="The only places to buy genshin toaster this is a joke btw">
+<link href = "http://touchsomegrass.ml" rel = "canonical"/>
+<img src = "/to.png" alt = "toaster"
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>Touch Some Grass</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      Grass /Genshin Collab <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Genshin Collab</a>
+      <a href="#" class="w3-bar-item w3-button">Medium Grass Patch</a>
+      <a href="#" class="w3-bar-item w3-button">Large Grass Patch</a>
+    </div>
+  </div>
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">Touch Some Grass</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+ 
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">Genshin Collab</p>
+    <p class="w3-right">
+      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+ 
+ 
+  <!-- Right Column -->
+  <div class="w3-containter w3-row w3-hide-small w3-hide-medium">
+    <div class="w3-third">
+        <img src="/img/ta.png" alt="toaster" style="max-width:300px">
+    </div>
+    <!-- Product Description -->
+    <div class="w3-rest">
+      <h1>Genshin Toaster</h1>
+      <p>The toaster to play Genshin Impact on</p>
+      <div class="w3-row">
+      <p class="max-width:50px">148$</p>
+      <a class="w3-rest"href="https://twitter.com/tormenmashi_/status/1395370051126009868"><button class="w3-button w3-black">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-containter w3-hide-large w3-mobile">
+        <img src="/img/ta.png" alt="toaster" >
+
+    <!-- Product Description -->
+    <div class="w3-container">
+      <h1>Genshin Toaster</h1>
+      <p>The toaster to play Genshin Impact on</p>
+      <div class="w3-row">
+      <p>148$</p>
+      <a class="w3-rest"href="https://twitter.com/tormenmashi_/status/1395370051126009868"><button class="w3-button w3-black">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+  <!-- Subscribe section -->
+  <div class="w3-container w3-black w3-padding-32">
+    <h1>Subscribe</h1>
+    <p>To get special offers and non-VIP treatment</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <a onclick="alert('Please do not put your email it doesn work please dont')"href="javascript:void(0)"><button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button></a>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.Don't ask us.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <a onclick="alert('please do not put your person detail it doesn work')"href="javascript:void(0)"><button class="w3-button w3-block w3-black">Send</button></a>
+        </form>
+      </div>
+
+      <div class="w3-col s4">
+        <h4>About</h4>
+        <a onclick="alert('just someone with a internet connection and a laptop')"href="javascript:void(0)">About us</a>
+        <p><a onclick="alert('No payment option is available')" href="javascript:void(0)">Payment</a></p>
+        <p><a onclick="alert('No help is available. Plese leave me alone')" href="javascript:void(0)">Help</a></p>
+		<p>yes i know it is broken on ipad who cares</p>
+		<p>i didn't get pay for this shit and the server</p>
+      </div>
+
+      <div class="w3-col s4 w3-justify">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i><a href="https://www.google.com/search?q=gay+club+near+me&oq=gay+club+near+me&aqs=chrome..69i57.4657j0j7&sourceid=chrome&ie=UTF-8"> Store Near You</a></p>
+        <p><i class="fa fa-fw fa-phone"></i> 016-969-6969</p>
+        <p><i class="fa fa-fw fa-envelope"></i> pleasedont@email.us</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> None</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Because you are broke</p>
+		<a href="https://shipping.fandom.com/wiki/KaeLuc"><p><i class="fa fa-fw fa-cc-amex"></i> on spending all your money</p></a>
+		<a href="https://shipping.fandom.com/wiki/KaeLuc"><p><i class="fa fa-fw fa-credit-card"></i>on primogens for diluc</p></a>
+        <br>
+        
+      </div>
+    </div>
+  </footer>
+
+   <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>		 <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" title="Raspberrypi" target="_blank" class="w3-hover-opacity">raspberry pi</a> and <a href="https://www.freenom.com" title="freenom" target="_blank" class="w3-hover-opacity"> freenom</a> for domain and server</div>
+
+  <!-- End page content -->
+</div>
+
+
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
